@@ -1,0 +1,106 @@
+body {
+  background-color: #96BB7C;
+  color: #184d47;
+  font-family: 'Hind', sans-serif;
+}
+
+h1 {
+  text-align: center;
+
+}
+
+h2 {
+  margin: 0;
+}
+
+.container{
+  height: 800px;
+  margin: 0 auto;
+}
+
+.section1, .section2, .section3 {
+  vertical-align: top;
+  margin: 0;
+  padding: 0;
+}
+
+
+.section1{
+  text-align: center;
+  width:20%;
+  position: relative;
+  display: inline-block;
+  /*background-color: blue;*/
+}
+
+.section2{
+  text-align: center;
+  height: 700px;
+  width:60%;
+  position: relative;
+  display: inline-block;
+  /*background-color: yellow;*/
+}
+
+.section3{
+  text-align:center;
+  width:15%;
+  position: relative;
+  display: inline-block;
+  /*background-color: red;*/
+}
+
+.back-of-card {
+  border: 1px black solid;
+  margin-bottom: 20px;
+}
+
+#comp-cards{
+  height: 154px;
+}
+
+#player-cards{
+  height: 154px;
+}
+
+#comp-area, #player-area, #alert-area, #score-area{
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#score-area{
+  padding: 20px;
+}
+
+#alert-area{
+  padding: 10px;
+}
+
+
+.btn {
+  background: #fad586;
+  background-image: -webkit-linear-gradient(top, #fad586, #c64756);
+  background-image: -moz-linear-gradient(top, #fad586, #c64756);
+  background-image: -ms-linear-gradient(top, #fad586, #c64756);
+  background-image: -o-linear-gradient(top, #fad586, #c64756);
+  background-image: linear-gradient(to bottom, #fad586, #c64756);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Hind', sans-serif;
+  /* font-family: Arial; */
+  color: #184d47;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #c64756;
+  background-image: -webkit-linear-gradient(top, #c64756, #fad586);
+  background-image: -moz-linear-gradient(top, #c64756, #fad586);
+  background-image: -ms-linear-gradient(top, #c64756, #fad586);
+  background-image: -o-linear-gradient(top, #c64756, #fad586);
+  background-image: linear-gradient(to bottom, #c64756, #fad586);
+  text-decoration: none;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--!+tab brings up the boilerplate -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Blackjack</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>Welcome to the blackjack table, press the start button to play!</h1>
+  </header>
+
+<div class="container">
+
+  <div class="section1">
+    <div id="deck-area">
+    <br><img class="back-of-card" src="images/back_of_card.jpeg" height="150"/></br>
+    <button type="button" class="btn" id="reset-button">Reset</button>
+    </div>
+
+  </div>
+
+  <div class="section2">
+    <h2>Dealers Hand</h2>
+      <div id="comp-cards">
+      <!-- <br>Comp Cards</br> -->
+      </div>
+      <br />
+
+    <div id="comp-area">
+      Dealer score = 0
+    </div>
+    <br />
+
+    <h2>Players Hand</h2>
+    <div id="player-cards">
+    <!-- <br>Player Cards</br> -->
+    </div>
+    <br />
+
+    <div id="player-area">
+       Player Score = 0
+    </div>
+    <br />
+    <button type="button" class="btn" id="start-game-button">Start Game!</button>
+    <button type="button" class="btn" id="hit-button">Hit me</button>
+    <button type="button" class="btn" id="stay-button">Stay</button>
+
+    <div id="alert-area">
+    </div>
+    <br />
+  </div>
+
+  <div class="section3">
+    <div id="score-area">
+
+    </div>
+  </div>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="index.js" charset="utf-8"></script>
+</body>
+
+<!--script source goes at the end of the body-->
+</html>
